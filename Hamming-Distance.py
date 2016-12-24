@@ -34,6 +34,6 @@ class Solution(object):
         r = bin(x^y)[2:]
         l = 0
         for i in r:
-            if i=='1':
-                l+=1
+            if i == '1':
+                l += 1
         return l
