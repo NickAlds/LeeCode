@@ -38,12 +38,14 @@ class Solution(object):
         :rtype: List[str]
         """
         rlist = []
-        for i in range(1,n+1):
-            if i%15==0:
+        for i in range(1, n+1):
+            if i%15 == 0:
                 rlist.append('FizzBuzz')
-            elif i%3==0:
+            elif i%3 == 0:
                 rlist.append('Fizz')
-            elif i%5==0:
+            elif i%5 == 0:
                 rlist.append('Buzz')
             else:
                 rlist.append(str(i))
+    def fizzBuzzBetter(self, n):
+        return ['Fizz' * (not i % 3) + 'Buzz' * (not i % 5) or str(i) for i in range(1, n+1)]
