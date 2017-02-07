@@ -24,12 +24,11 @@ class Solution(object):
         :type people: List[List[int]]
         :rtype: List[List[int]]
         """
-        A1 = [[i[0],-i[1]] for i in people]
-        A1.sort()
-        print A1
+        A = [[i[0],-i[1]] for i in people]
+        A.sort()
         B = [i for i in range(len(A))]
         C = [0]*len(A)
-        for i in A1:
+        for i in A:
             #print i
             C[B[-i[1]]] = [i[0],-i[1]]
             B.pop(-i[1])
