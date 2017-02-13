@@ -1,1 +1,2 @@
-print {1:2}[4]
+import math
+print int(math.sqrt(14))
