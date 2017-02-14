@@ -49,7 +49,7 @@ class Solution(object):
                 maxlst[depth+1] = max(maxlst[depth+1], node.left.val)
             else:
                 maxlst.append(node.left.val)
-            self.nodedepth(node.right, depth+1, maxlst)
+            self.nodedepth(node.left, depth+1, maxlst)
         else:
             if len(maxlst)-1 > depth:
                 maxlst[depth+1] = max(maxlst[depth+1], node.left.val, node.right.val)
