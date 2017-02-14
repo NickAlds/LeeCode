@@ -1,8 +1,3 @@
-import math
-print int(math.sqrt(14))
-
-nums = [1, 2, 3, 0.5]
-nums1 = nums
-nums1.sort()
-
-print nums
+dict1 = {3:'a', 2:'b', 1:'c'}
+for i in dict1:
+    print i
