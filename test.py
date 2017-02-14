@@ -1,4 +1,1 @@
-import time
-import subprocess
-
-print dir('./')
+print '1bc'[:1]
