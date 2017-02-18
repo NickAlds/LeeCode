@@ -1,5 +1,5 @@
 '''
-504. Base 7 Add to List
+504. Base 7
 Description  Submission  Solutions
 Total Accepted: 4053
 Total Submissions: 8710
