@@ -1,5 +1,5 @@
 '''
-401. Binary Watch Add to List
+401. Binary Watch
 Description  Submission  Solutions
 Total Accepted: 21837
 Total Submissions: 49394
