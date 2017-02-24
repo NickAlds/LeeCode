@@ -1,5 +1,5 @@
 '''
-421. Maximum XOR of Two Numbers in an Array Add to List
+421. Maximum XOR of Two Numbers in an Array
 Description  Submission  Solutions
 Total Accepted: 8875
 Total Submissions: 20247
