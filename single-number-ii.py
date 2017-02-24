@@ -20,9 +20,10 @@ class Solution(object):
         summary, negcnt = 0, 0
         for i in nums:
             negcnt += i < 0
+            i = abs(i)
             bitwise = format(i, '032b')
             for j in xrange(32):
-                sumlist[j] += int(bitwise)
+                sumlist[j] += int(bitwise[j])
         for i in xrange(32):
             summary += 2**(31-i)*(sumlist[i]%3)
         return summary*[1,-1][negcnt%3]
