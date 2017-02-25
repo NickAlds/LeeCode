@@ -1,6 +1,6 @@
 '''
 137. Single Number II
-Description  Submission  Solutions
+Description
 Total Accepted: 108821
 Total Submissions: 269134
 Difficulty: Medium
