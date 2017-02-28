@@ -25,9 +25,9 @@ No such pair of words.
 class Solution(object):
     def maxProduct(self, words):
         d = {}
-        for w in words: 
+        for w in words:
             tmp = 0x0
             for ch in set(w):
-                tmp |= (0x1 << (ord(ch) - 97))            
+                tmp |= (0x1 << (ord(ch) - 97))
             d[tmp] = max(d.get(tmp, 0), len(w))
         return max([d[x] * d[y] for x in d for y in d if not x & y] or [0])
