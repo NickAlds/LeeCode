@@ -1,5 +1,5 @@
 '''
-378. Kth Smallest Element in a Sorted Matrix Add to List
+378. Kth Smallest Element in a Sorted Matrix
 Description  Submission  Solutions
 Total Accepted: 28649
 Total Submissions: 65794
@@ -21,7 +21,8 @@ k = 8,
 return 13.
 Note: 
 You may assume k is always valid, 1 ≤ k ≤ n2.
-'''#what solves this problem may be called "the Matrix Binary Search"
+'''
+#what solves this problem may be called "the Matrix Binary Search"
 class Solution(object):
     def kthSmallest(self, matrix, k):
         """
