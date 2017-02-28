@@ -1,3 +1,14 @@
+'''
+52. N-Queens II
+Description  Submission  Solutions
+Total Accepted: 57968
+Total Submissions: 134063
+Difficulty: Hard
+Contributors: Admin
+Follow up for N-Queens problem.
+
+Now, instead outputting board configurations, return the total number of distinct solutions.
+'''
 class Solution(object):
     def totalNQueens(self, n):
         """
