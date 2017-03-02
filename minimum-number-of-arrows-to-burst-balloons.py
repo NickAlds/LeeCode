@@ -1,5 +1,5 @@
 '''
-452. Minimum Number of Arrows to Burst Balloons Add to List
+452. Minimum Number of Arrows to Burst Balloons
 Description  Submission  Solutions
 Total Accepted: 7933
 Total Submissions: 18636
