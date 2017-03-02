@@ -1,5 +1,5 @@
 '''
-22. Generate Parentheses Add to List
+22. Generate Parentheses
 Description  Submission  Solutions
 Total Accepted: 131092
 Total Submissions: 307772
