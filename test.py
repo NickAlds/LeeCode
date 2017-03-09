@@ -1,4 +1,3 @@
-d = {'Age': 7, 'Name': 'Zara'}
-r = d.copy()
-r['Age'] = 11
-print d , r
+import random
+for i in xrange(10):
+    print random.randrange(1)
