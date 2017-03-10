@@ -29,6 +29,8 @@ What if negative numbers are allowed in the given array?
 How does it change the problem?
 What limitation we need to add to the question to allow negative numbers?
 '''
+#dp[i] = dp[i - nums[0]] + dp[i - nums[1]] + ... + dp[i - nums[j]] + ...
+#where j is all possible indices from [0, nums.size()-1]. And of course all out of bound i - nums[j] should be excluded in the sum.
 class Solution(object):
     def combinationSum4(self, nums, target):
         nums.sort()
