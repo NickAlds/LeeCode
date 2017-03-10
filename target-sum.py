@@ -1,5 +1,5 @@
 '''
-494. Target Sum Add to List
+494. Target Sum
 Description  Submission  Solutions
 Total Accepted: 8891
 Total Submissions: 19997
