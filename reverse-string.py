@@ -1,5 +1,5 @@
 """
-344. Reverse String   Add to List QuestionEditorial Solution  My Submissions
+344. Reverse String
 Total Accepted: 127538
 Total Submissions: 220938
 Difficulty: Easy
