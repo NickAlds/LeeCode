@@ -1,3 +1,2 @@
-import random
-for i in xrange(10):
-    print random.randrange(1)
+list1 = 'abcd'
+print list1[2:0:-1]
