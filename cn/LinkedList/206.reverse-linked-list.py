@@ -47,4 +47,9 @@ class Solution(object):
             tail.next = tail.next.next
             new_head.next = head
             return self.reverse(new_head, tail)
-            
+    
+    def reverseList2(self, head):
+        cur, prev = head, None
+        while cur:
+            cur.next, prev, cur = prev, cur, prev.next
+        return prev
