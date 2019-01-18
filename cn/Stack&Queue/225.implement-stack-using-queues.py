@@ -36,6 +36,7 @@ class MyStack:
         rst = self.queue.pop(0)
         while queue1:
             self.queue.append(queue1.pop(0))
+        return rst
 
     def top(self):
         """

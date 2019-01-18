@@ -32,7 +32,7 @@ class Solution(object):
         while start_node.next:
             tmp_list = list()
             full = True
-            for i in range(k):
+            for _ in range(k):
                 if head:
                     tmp_list.append(head)
                     head = head.next
