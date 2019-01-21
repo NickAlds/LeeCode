@@ -37,7 +37,7 @@ class Solution:
             return []
         res, win = [], []
         for i, x in enumerate(nums):
-            if win[0]<i-k+1:
+            if win and win[0]<i-k+1:
                 win.pop(0)
             while win and nums[win[-1]]<=x:
                 win.pop()
