@@ -43,6 +43,8 @@ class Solution:
         import itertools
         res = []
         nums.sort()
+        if len(nums)<4 or sum(nums[:4]) > target:
+            return res
         for i, num in enumerate(nums):
             tmp_target = target - num
             tri_nums = nums[i+1:]
