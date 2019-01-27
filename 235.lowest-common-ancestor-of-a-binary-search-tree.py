@@ -64,4 +64,14 @@ class Solution:
         :type q: TreeNode
         :rtype: TreeNode
         """
+        if p.val>q.val:
+            maxi, mini = p.val, q.val
+        else:
+            maxi, mini = q.val, p.val
+        while not (mini<=root.val<=maxi):
+            if root.val < mini:
+                root = root.right
+            else:
+                root = root.left
+        return root
         
