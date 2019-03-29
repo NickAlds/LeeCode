@@ -35,7 +35,7 @@
 class Solution:
     def groupAnagrams(self, strs):
         sorted_strs = [''.join(sorted(s)) for s in strs]
-        keys = set(sorted_strs)
+        #keys = set(sorted_strs)
         anagrams_dict = {}
         for i, s in enumerate(sorted_strs):
             anagrams_dict[s] = anagrams_dict.get(s, [])+[strs[i]]
