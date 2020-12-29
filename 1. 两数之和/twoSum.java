@@ -1,12 +1,20 @@
 import java.util.HashMap;
 
-public class twoSum {
-    public int[] twoSum(int[] nums, int target) {
-        Hashmap<int, int> hashmap = new HashMap<int, int>();
+class Solution{
+    public static int[] twoSum(int[] nums, int target) {
+        int[] ret = {};
+        HashMap<Integer, Integer> hashmap = new HashMap<Integer, Integer>();
+        int index=0;
+        for (int num:nums){
+            if(hashmap.containsKey(target-num)){
+                int diff_index = hashmap.get(target-num);
+                return new int[] {diff_index, index};
+            }
+            else{
+                hashmap.put(num, index);
+            }
+            index++;
+        }
+        return ret;
     }
-
-    public static void main(String[] args) {
-        System.out.println("HelloWorld!");
-    }
-
 }
